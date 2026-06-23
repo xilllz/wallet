@@ -1,0 +1,30 @@
+.balance {
+  &-USDT {
+    font-size: 80px;
+    font-weight: 600;
+    margin: 0;
+
+    &-block {
+      display: flex;
+      margin: 0 auto;
+      justify-content: center;
+      gap: 10px;
+      border-bottom: 1px solid #FEE715;
+      padding-bottom: 20px;
+    }
+
+    &-error {
+      font-size: 50px;
+      font-weight: 600;
+      margin: 0;
+      color: rgb(68, 23, 23);
+    }
+
+    &-text {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 500;
+      margin-top: 70px;
+    }
+  }
+}

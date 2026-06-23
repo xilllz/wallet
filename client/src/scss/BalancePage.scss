@@ -1,0 +1,130 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.wallet {
+  background-color: #101820;
+  border-radius: 20px;
+  border: 2px solid #FEE715;
+  padding: 40px;
+  margin: 0;
+  width: 900px;
+  min-height: 700px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: default;
+}
+
+
+.tokens-list {
+  list-style: none;
+}
+
+.tokens-list {
+  padding: 40px 20px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.token {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+  position: relative;
+  border: 1px solid #FEE715;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.token-text {
+  margin: 0;
+  font-weight: 600;
+}
+
+.token-balance {
+  margin: 0;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: 600;
+}
+
+.S {
+  width: 20px;
+  height: 20px;
+  font-size: 16px;
+  font-weight: 750;
+}
+
+.address {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 0 40px;
+
+  &-id {
+    font-size: 18px;
+    font-weight: 600;
+    color: #b4b4b4;
+  }
+}
+
+.exit {
+  &-wallet {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    padding-left: 3px;
+    padding-top: 3px;
+    cursor: pointer;
+  }
+
+  &-img {
+    z-index: 3;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.honey {
+  width: 30px;
+  height: 30px;
+  margin-top: -3px;
+}
+
+.wallet {
+  &__logo {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 0 0 50px;
+
+
+    &-img {
+      width: 50px;
+      height: 50px;
+    }
+
+    &-text {
+      margin: 0;
+    }
+  }
+}
+
+.decoration {
+  position: absolute;
+  bottom: 5%;
+  left: 2%;
+}

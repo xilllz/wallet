@@ -1,0 +1,60 @@
+.btn-block {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.create-btn {
+    width: 300px;
+    height: 70px;
+    background-color: #FEE715;
+    color: #101820;
+}
+
+.enter-btn {
+    width: 300px;
+    height: 70px;
+    background-color: #101820;
+    color: #FEE715;
+    border: 2px solid #FEE715;
+}
+
+
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.login-input {
+    padding: 10px 20px;
+    border: 1px solid #FEE715;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    height: 50px;
+    background-color: #101820;
+
+
+    &::placeholder {
+        color: #e2e2e2;
+    }
+}
+
+.forgot-btn {
+    background: none;
+    border: none;
+    color: #5c5c5c;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 14px;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.forgot-btn:hover {
+    color: #FEE715;
+}

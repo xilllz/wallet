@@ -1,0 +1,80 @@
+.leave-window {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(61, 61, 61);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  z-index: 1001;
+  min-width: 300px;
+  text-align: center;
+}
+.leave-window::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+.leave-window-text {
+  margin: 0 0 25px 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.leave__button-block {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+.leave__button-block button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.leave__button-block .exit {
+  background-color: #ff4444;
+  color: white;
+}
+.leave__button-block .exit:hover {
+  background-color: #cc0000;
+}
+.leave__button-block .cancel {
+  background-color: #e0e0e0;
+  color: #000000;
+}
+.leave__button-block .cancel:hover {
+  background-color: #d0d0d0;
+}
+.leave__button-block {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.exit, .cancel {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.exit {
+  background-color: #ff4444;
+  color: white;
+}
+
+.cancel {
+  background-color: #ccc;
+  color: black;
+}/*# sourceMappingURL=LeaveWallet.css.map */

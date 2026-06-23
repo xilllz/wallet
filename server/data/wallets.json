@@ -1,0 +1,74 @@
+{
+    "kali.user@tutamail.com": {
+        "address": "XXXXXXXXXXXXXXXX",
+        "balance": {
+            "BTC": 1.22,
+            "ETH": 2.33,
+            "SOL": 41.1,
+            "SNX": 3123.33
+        },
+        "password": "00000000",
+        "sidPhrase": [
+            "milk",
+            "dog",
+            "home",
+            "apple",
+            "horse",
+            "book",
+            "car",
+            "mount",
+            "city",
+            "file",
+            "sofa",
+            "finger"
+        ]
+    },
+    "XXXX@mail.ru": {
+        "address": "0000000000000000",
+        "balance": {
+            "BTC": 0,
+            "ETH": 1,
+            "SOL": 1,
+            "SNX": 0
+        },
+        "password": "XXXXXXXXXXXXXXXX",
+        "sidPhrase": [
+            "black",
+            "black",
+            "black",
+            "black",
+            "black",
+            "black",
+            "black",
+            "black",
+            "black",
+            "black",
+            "black",
+            "black"
+        ]
+    },
+    "gfknhgkfhfjgn@mail.ru": {
+        "address": "733tQqVviEd38Ju0",
+        "balance": {
+            "BTC": 3.4,
+            "ETH": 1,
+            "SOL": 0,
+            "SNX": 0
+        },
+        "password": "00000000",
+        "sidPhrase": [
+            "sound",
+            "apple",
+            "member",
+            "plant",
+            "life",
+            "ship",
+            "video",
+            "plastic",
+            "history",
+            "start",
+            "place",
+            "tree"
+        ]
+    }
+}
