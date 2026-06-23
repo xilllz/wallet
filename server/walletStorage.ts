@@ -12,13 +12,11 @@ export function saveWalletData(
     try {
         let wallets: Record<string, any> = {};
 
-        // Читаем существующий файл
         if (fs.existsSync(WALLET_FILE)) {
             const content = fs.readFileSync(WALLET_FILE, "utf8");
             wallets = content ? JSON.parse(content) : {};
         }
 
-        // Добавляем новый кошелек
         wallets[email] = {
             address,
             balance: {
@@ -31,7 +29,6 @@ export function saveWalletData(
             sidPhrase
         };
 
-        // Сохраняем обратно
         fs.writeFileSync(
             WALLET_FILE,
             JSON.stringify(wallets, null, 4),
